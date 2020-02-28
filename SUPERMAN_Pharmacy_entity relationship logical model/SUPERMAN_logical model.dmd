@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SUPERMAN_logical model" id="1E7AF8EF-3E52-6AC0-1D60-1C311D41C9C7" version="3.5">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:39 UTC</createdTime>
+<ownerDesignName>superman_logical model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1E7AF8EF-3E52-6AC0-1D60-1C311D41C9C7</designId>
+</OSDM_Design>

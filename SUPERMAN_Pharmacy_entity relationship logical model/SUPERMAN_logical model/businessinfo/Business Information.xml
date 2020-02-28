@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F58C543A-A060-E37E-06F6-3ADDB2EB1934">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:39 UTC</createdTime>
+<ownerDesignName>superman_logical model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

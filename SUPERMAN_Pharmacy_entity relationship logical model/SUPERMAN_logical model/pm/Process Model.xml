@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="320BFDD8-9834-10AB-C503-150BC8B11930">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:39 UTC</createdTime>
+<ownerDesignName>superman_logical model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

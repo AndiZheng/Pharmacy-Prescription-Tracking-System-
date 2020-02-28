@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Physician-Prescription" directorySegmentName="seg_0" id="A56D99C8-8665-415D-7BED-9381EBADB96B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:49 UTC</createdTime>
+<ownerDesignName>SUPERMAN_logical model</ownerDesignName>
+<engineerTo>
+<item key="87E35BD7-3A98-0065-2584-5D0392429A6A" value="true"/>
+</engineerTo>
+<sourcePk>6AA7B42A-6B26-77F4-DCC4-BF31281BE8E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9BA1BEE-B888-7AA0-27F4-6B92A3C539B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C250F47-6240-55B0-A54E-A258BA22AFEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

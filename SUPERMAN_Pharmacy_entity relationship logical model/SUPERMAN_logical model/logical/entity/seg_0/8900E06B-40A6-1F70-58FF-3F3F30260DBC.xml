@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8900E06B-40A6-1F70-58FF-3F3F30260DBC" name="SUPPLIER">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:49 UTC</createdTime>
+<ownerDesignName>SUPERMAN_logical model</ownerDesignName>
+<engineerTo>
+<item key="87E35BD7-3A98-0065-2584-5D0392429A6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Supplier Name" id="A666C56D-7E9C-4AE1-32EA-67862C5110C8">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:49 UTC</createdTime>
+<ownerDesignName>SUPERMAN_logical model</ownerDesignName>
+<importedID>2E5B285C-F28F-547B-A06C-B078696DD669</importedID>
+<engineerTo>
+<item key="87E35BD7-3A98-0065-2584-5D0392429A6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Supplier Address" id="E55219BB-0AC4-1AE6-0BFE-020D64FB45EE">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:49 UTC</createdTime>
+<ownerDesignName>SUPERMAN_logical model</ownerDesignName>
+<importedID>19F2306D-759D-AAB9-85DB-E7FB0DFEAD63</importedID>
+<engineerTo>
+<item key="87E35BD7-3A98-0065-2584-5D0392429A6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15DC8A14-D201-5EFA-4A05-01CDF1767B21" name="SUPPLIER PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:49 UTC</createdTime>
+<ownerDesignName>SUPERMAN_logical model</ownerDesignName>
+<engineerTo>
+<item key="87E35BD7-3A98-0065-2584-5D0392429A6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A666C56D-7E9C-4AE1-32EA-67862C5110C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

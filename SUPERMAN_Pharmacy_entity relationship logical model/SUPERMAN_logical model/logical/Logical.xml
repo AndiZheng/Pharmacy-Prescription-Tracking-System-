@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D2728191-079E-9390-52DF-4BF5B2DBD9C6" mainViewID="DF57E8AE-6C93-44BF-60DE-DA27E3355FB1">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-10-16 19:37:39 UTC</createdTime>
+<ownerDesignName>superman_logical model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
