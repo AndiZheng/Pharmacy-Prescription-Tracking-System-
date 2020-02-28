@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8318313-EA32-F6DA-AFB3-9EEA39021F44" name="PATIENT">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>9775C643-3F14-16EB-B323-DF3C99B62356</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Patient_ID" id="F433E3C8-A05F-4FB8-B785-469E4FFA4C32">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>C836B418-AD55-BA3B-8A3E-AA4CF8A4DCBD</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_Street" id="567B6F01-B78C-3BC8-16B6-805986BFFD86">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>7FEB18CD-81B2-194B-7E88-838257C58D89</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_DoB" id="8325CD64-C552-B1E4-E56C-44E5A01E2FED">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>E5EF5A61-46E1-B942-E5E4-F9DE96BBB6A9</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_First_Name" id="EC16F216-A5A5-F02F-7ACF-FEBCC2749AA2">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>67C76A75-3920-DDFF-DEDF-42E9EFDB8054</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_Last_Name" id="1E0CA572-69BD-7E8B-8138-61FCFDBDF2E3">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>D29FDECF-A9C4-4966-C690-6FB40469348B</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_City" id="8AE30B9A-B643-0574-EEB4-A9DB7F7E95D1">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>3C8369C8-12C1-25E1-3071-B0E73B81B33E</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_State" id="69D60C55-E8C7-1C55-5C70-6AC33054C834">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>ABBE54ED-7CB5-63DC-1A92-AAA5817F2942</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Patient_ZIP" id="DEE54766-552C-BBBC-12DA-8688F8AAFC1E">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>56726DAE-C0A1-4700-5EFA-5B2321A3F852</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="233AE498-56E9-8817-53D7-4F00FFD0A6DC" name="PATIENT_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>E5B181CA-ACF9-7B8E-0FA6-65E2B367CB19</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F433E3C8-A05F-4FB8-B785-469E4FFA4C32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

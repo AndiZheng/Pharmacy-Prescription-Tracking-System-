@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5875C129-BB62-0F65-6A99-FE5FFB8F8645" name="INS CLAIM">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ins Claim ID" id="8813B684-FB5B-168C-A56E-D9549046A3DF">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>B956951F-2375-06DA-A967-1AABB9675812</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Claim Date" id="BD7953EE-2C53-D794-BFA7-5AABB28656F8">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>6C3C8AB3-2AB7-E945-C84C-8BE81AD5A940</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Company Name1" id="F535E1C4-5C4E-DC4A-3438-C1C61B890E31">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<generatorID>383113E8-E056-FAA0-6089-DE9CEB941725</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>3B99B0F4-2D3F-2007-39A7-2895BC367516</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<referedAttribute>519B079C-71A3-1D56-10D2-C9BB783B6BFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Company Address" id="5700D1FD-FC6C-500C-E91B-94A1B14C2199">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>572F8534-870A-0CD3-404D-315068DDAFD2</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9178EB5E-0566-B7AB-0B14-8EE4FABE844E" name="CLAIM PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8813B684-FB5B-168C-A56E-D9549046A3DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD3C6135-A121-23B8-D31A-F00AF06BBACE" name="INS CLAIM 2">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ins Company Name" id="519B079C-71A3-1D56-10D2-C9BB783B6BFF">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>F2B8BE60-EAE5-7642-DCCD-AA92229119B5</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Policy #" id="5538DE93-CEBF-33B3-E9BD-017EE327CD25">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>C92829B7-0293-3E0A-6E3C-6D189AA7E0A9</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="049FD37A-15ED-9F1C-F39D-82B9A367DED0" name="INS CLAIM 2 PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>519B079C-71A3-1D56-10D2-C9BB783B6BFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

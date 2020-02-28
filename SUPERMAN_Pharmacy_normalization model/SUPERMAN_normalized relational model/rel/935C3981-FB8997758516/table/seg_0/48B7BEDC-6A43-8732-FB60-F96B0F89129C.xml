@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48B7BEDC-6A43-8732-FB60-F96B0F89129C" name="INS_CLAIM_2">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>AD3C6135-A121-23B8-D31A-F00AF06BBACE</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ins_Company_Name" id="57653250-722D-DF7D-C2AA-035E5E9F2772">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>519B079C-71A3-1D56-10D2-C9BB783B6BFF</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ins_Policy_#" id="7E12A07E-1396-C628-3F00-440623F4F19F">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>5538DE93-CEBF-33B3-E9BD-017EE327CD25</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="315109FA-62FA-360A-F790-95E32DBC4D2E" name="INS_CLAIM_2_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>049FD37A-15ED-9F1C-F39D-82B9A367DED0</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57653250-722D-DF7D-C2AA-035E5E9F2772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0B4F2F9-116D-4509-0959-B233ADD17FA3" name="DRUG-SUPPLIER">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Drug ID" id="0CDC007F-54DF-0349-2A70-1CCC88E1FD36">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>7A221FC6-CECC-FA04-A922-50EE9B09F22C</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Supplier Name" id="7AE0F95E-6154-61B9-46E7-9AA70E9B4963">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>5B1FA03C-0559-C37F-4422-6B6DCC67F2DE</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Qty on Hand D" id="17595EE2-078C-9F4F-8800-15B79C444E9B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>0AB0CBB7-6DF5-9002-E52A-58050A24F962</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Qty on Order D" id="0512D1EE-8E66-2F83-C57D-F9EADC9371D7">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>C2B22C37-B564-952F-4F85-37FFEB80974C</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Qty on Order Date D" id="C8C1E882-251A-629F-5114-5DDBEE4AFCC8">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>6CAEA78D-1A30-E764-0CEA-67132D9C7710</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug ID1" id="098F60E9-B706-265A-9A43-1A63CB27203E">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<generatorID>E6F254E5-63E1-192A-021F-0FB9F006CFEB</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>BFB600E2-049D-44AB-69B7-FF105E9B8340</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<referedAttribute>8A2AFD49-EA6B-13A1-0173-6C5CD91C529B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Supplier Name1" id="852C2934-E465-739D-1927-2A4BC5EA2FEA">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<generatorID>EDC710FC-7D64-CE4D-CC9E-76A60CF546C4</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<importedID>2D524178-6DA5-BE20-FE90-26A9EE7D762F</importedID>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="true"/>
+</engineerTo>
+<referedAttribute>8FDBFEA3-F790-67C9-14E8-47A82EB571D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86636184-748A-A3E0-39D9-BE4398FF657F" name="DRUG-SUPPLIER PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:57 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="935C3981-90B6-74CA-FF50-FB8997758516" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>852C2934-E465-739D-1927-2A4BC5EA2FEA</attributeRef>
+<attributeRef>0CDC007F-54DF-0349-2A70-1CCC88E1FD36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

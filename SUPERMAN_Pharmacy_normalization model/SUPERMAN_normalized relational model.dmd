@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SUPERMAN_normalized relational model" id="722B7019-D23B-A25C-DBAE-49EC4C967591" version="3.5">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:46 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>722B7019-D23B-A25C-DBAE-49EC4C967591</designId>
+</OSDM_Design>

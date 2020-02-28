@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56386D47-AB94-81B4-D80C-2ACA52CEAAF9" containerWithKeyObject="D16B6DF8-FE8F-3D35-1F7C-E8CF7ECAA103" localFKIndex="D39D920F-5FB9-490D-ACD8-E5B1C0EB2F08" name="RX-DRUG_RX_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>CFC2EB22-1D59-1FFD-DEEC-78399CE1371E</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<referredTableLongName>RX</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44F9C263-A482-FF9C-B64B-A7C56C7A0839</referredTableID>
+<keyObject>A480249D-B85C-38FA-08CE-65E867D39F46</keyObject>
+<referredKeyID>A480249D-B85C-38FA-08CE-65E867D39F46</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rx_#</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

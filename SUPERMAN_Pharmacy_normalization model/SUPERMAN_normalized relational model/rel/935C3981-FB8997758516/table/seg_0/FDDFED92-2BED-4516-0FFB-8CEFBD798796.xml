@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDDFED92-2BED-4516-0FFB-8CEFBD798796" name="PAYMENT">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>1227420C-1444-0B32-202B-0D91BA699A24</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Payment_#" id="03F85049-1D1A-20F2-94F0-50973BB91253">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>8BD4242E-2613-3A4B-B7F1-B8872E44DAF0</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_Date" id="B1FCFDE1-363F-A80A-7E5B-6968C296A763">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>FAB4B8B4-60CB-9529-E07D-23B9F8AEAAAB</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_Type" id="170E2B3E-29E3-8065-D464-3FEFDDC60A0E">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>40D74AFE-CCB3-9C50-4020-9CD45B4E1AA2</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INS_CLAIM_Ins_Claim_ID" id="A5A9EC68-AE0D-2F4C-A025-99C6A00627BB">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>7B0243B8-5E91-72F5-63D5-AE39DFE59645</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E26D6480-C2C9-1691-FA76-C190B1DFE185" referredColumn="2D791BA9-4183-4C55-8587-4EC1A7253B2C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="561FBC6E-7DF5-3956-0326-978C23B94968" name="PAYMENT_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>09C6A11B-B98F-E196-988C-C3330C056D9D</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03F85049-1D1A-20F2-94F0-50973BB91253"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF1FBC34-197E-765A-657D-71E38470491C" name="PAYMENT__IDX">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EF70E130-2274-9109-539A-168287F9B47C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A5A9EC68-AE0D-2F4C-A025-99C6A00627BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3789C867-16D2-262B-F518-494B1115C65E" name="PAYMENT_INS_CLAIM_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>EF70E130-2274-9109-539A-168287F9B47C</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5A9EC68-AE0D-2F4C-A025-99C6A00627BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

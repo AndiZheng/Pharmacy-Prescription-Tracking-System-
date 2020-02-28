@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEB20DAA-A15D-33CB-8AAF-41C852F6BC12" name="PATIENT_2">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>122AB999-B63B-8555-4962-0EE6372134F7</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Patient_ID" id="E95C0846-29DA-33ED-9985-547C82A96F83">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>C7375421-A123-AB77-2CB5-D4A15FC046F6</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Family_Member_Name" id="3B720413-9C8E-E8C3-6E4C-C543087BD88B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>1D1487C3-D88C-F662-485A-69903853CF8E</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_Patient_ID" id="831DF076-5A19-E4AE-5F53-0D9FC4928D46">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>E8AAA35C-916A-2037-BCE7-06A19409904A</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F772E8F6-FF96-F9EF-53DB-89EFC1E19D9C" referredColumn="F433E3C8-A05F-4FB8-B785-469E4FFA4C32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE3CC5CA-1AB2-87D1-FED3-BBFD4E04F762" name="PATIENT_2_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>A29A74D3-2629-2ADD-F8D6-862F8CD9164B</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E95C0846-29DA-33ED-9985-547C82A96F83"/>
+<colUsage columnID="3B720413-9C8E-E8C3-6E4C-C543087BD88B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EE5728A-59CB-FE4A-0A74-E095B3366EDE" name="PATIENT_2__IDX">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>92633441-F7F7-8F70-CE5E-D6B64547E99A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="831DF076-5A19-E4AE-5F53-0D9FC4928D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="703C9246-39D1-F822-711D-C32F727F51D4" name="PATIENT_2_PATIENT_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>92633441-F7F7-8F70-CE5E-D6B64547E99A</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="831DF076-5A19-E4AE-5F53-0D9FC4928D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="823FB2B9-42BC-7830-6B36-EEE5190B9B78">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:46 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

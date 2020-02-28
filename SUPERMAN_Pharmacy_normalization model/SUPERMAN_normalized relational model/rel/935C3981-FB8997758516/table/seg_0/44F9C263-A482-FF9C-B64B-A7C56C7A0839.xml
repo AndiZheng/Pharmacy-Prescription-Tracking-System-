@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44F9C263-A482-FF9C-B64B-A7C56C7A0839" name="RX">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>76795610-DD98-7A9D-CFAE-F760349A1066</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rx_#" id="75250052-6C35-6109-5B20-7AFDA63D3045">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>F590F6D8-0B8C-7A9A-B7DB-FBC468B148C9</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHYSICIAN_Physician_Name" id="EF50239A-BC6A-7686-A7E5-BDD205963082">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>9F997A75-525E-7B3F-8CB3-ACC9FD099B74</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="043E5982-2847-30DB-A270-806DB6033030" referredColumn="1A983848-483D-7AAA-4D37-946E0C3F65D8"/>
+</associations>
+</Column>
+<Column name="PATIENT_Patient_ID" id="376039A2-B28E-89A5-6CE5-884DFA66BFB4">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>7B6E357E-CF54-31D6-1546-77563DAE48BA</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C84596B7-9C96-74C3-1FF0-23EA1B7C3475" referredColumn="F433E3C8-A05F-4FB8-B785-469E4FFA4C32"/>
+</associations>
+</Column>
+<Column name="PAYMENT_Payment_#" id="14E2ECDC-B459-49DB-2C15-76BE8F35723F">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>E0F88B5B-5152-115A-F1D3-13081687CC8B</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FED0661F-ED73-71D1-B48D-DB5F442E37D5" referredColumn="03F85049-1D1A-20F2-94F0-50973BB91253"/>
+</associations>
+</Column>
+<Column name="Rx_Original_Date" id="2C282CAF-025A-4ECF-35BB-FD0BB210C3EC">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>927F4184-A5E6-8EA1-8F5F-09FB91709F21</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A480249D-B85C-38FA-08CE-65E867D39F46" name="RX_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>D0E2617C-B854-9C8C-5758-F1DE50E3079D</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75250052-6C35-6109-5B20-7AFDA63D3045"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DA6E03D-1949-CFF5-84F6-1BE427B8F0DE" name="RX_PATIENT_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>9B6AF012-100D-8FEE-B97B-B55AAE264A6E</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="376039A2-B28E-89A5-6CE5-884DFA66BFB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DD858EA-C89C-E4B6-64F7-D21BFCED72AC" name="RX_PHYSICIAN_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>ABBFFEF2-FBE5-82B0-12AB-328E398229B3</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF50239A-BC6A-7686-A7E5-BDD205963082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2A79AA1-217B-E2C7-8FF8-395AFC5FA672" name="RX_PAYMENT_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>2C406C22-7130-D1F1-A4E1-081F0F36422F</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E2ECDC-B459-49DB-2C15-76BE8F35723F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

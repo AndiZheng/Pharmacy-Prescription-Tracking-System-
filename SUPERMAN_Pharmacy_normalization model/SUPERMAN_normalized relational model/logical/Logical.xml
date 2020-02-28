@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="516AF30F-34ED-0B1E-DEA2-4AD1C08D9F6D" mainViewID="7AEE3FEB-AA7B-44D3-A959-312C19EBB327">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:27:46 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14967CEC-C881-E3BA-B49E-A8B4E97B6856" containerWithKeyObject="8CF29963-E463-7000-AE86-79D1545DB830" localFKIndex="F4792759-5DC4-2F5E-EE8D-AF6631A9325D" name="INS_CLAIM_INS_CLAIM_2_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>383113E8-E056-FAA0-6089-DE9CEB941725</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<referredTableLongName>INS_CLAIM_2</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48B7BEDC-6A43-8732-FB60-F96B0F89129C</referredTableID>
+<keyObject>315109FA-62FA-360A-F790-95E32DBC4D2E</keyObject>
+<referredKeyID>315109FA-62FA-360A-F790-95E32DBC4D2E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ins_Company_Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

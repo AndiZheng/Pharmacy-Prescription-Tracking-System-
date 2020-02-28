@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="973F2EF5-0880-2A23-64E8-492CD475FF7D" name="RX-DRUG_2">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>46722E40-43B2-C54E-7856-F74DFABBAF3F</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rx_#" id="315D861F-B6A5-7894-A723-855D689286D4">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>913DD5EC-61A1-E71A-C440-F4A1A8381611</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Date_Filled_D" id="6F75F47A-7337-41C8-22A1-AE0272A901F0">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>272684FC-A57C-3CBC-5E15-7FA132BBD866</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Drug_Price_D" id="49211AE2-97BB-EF65-958A-9F7578F28879">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>1F3FA1E2-54D4-3731-25AB-C99D60881166</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Drug_Qty_D" id="D3F16A08-B7D6-14CB-E131-EEDEE4EB8C05">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>DD291CCC-6092-2D2F-D636-89141BD5B6AD</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RX-DRUG_Rx_#" id="8F7071D6-2EDA-C5D4-95A9-199F914357C9">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>EBC82AD0-E706-BEBF-38C3-B5FCBDC7A6BE</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34E7E964-C2F9-739D-037C-36A2223D19CA" referredColumn="2CEF4F01-475B-D7F9-458B-A8B4C120DC48"/>
+</associations>
+</Column>
+<Column name="RX-DRUG_Drug_ID" id="B6BF2F18-78C4-69EB-81FC-58495B4AFBBF">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>505EAE06-1D0D-BAB5-53AF-C41ED9E9845D</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34E7E964-C2F9-739D-037C-36A2223D19CA" referredColumn="B286386E-1213-735A-EC12-0BA923AB55C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2849A2A9-1950-5468-1FAA-436F4190009B" name="RX-DRUG_2_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>16BD15EA-BADC-D45E-0F89-ADCDB4BF6BA9</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315D861F-B6A5-7894-A723-855D689286D4"/>
+<colUsage columnID="6F75F47A-7337-41C8-22A1-AE0272A901F0"/>
+<colUsage columnID="49211AE2-97BB-EF65-958A-9F7578F28879"/>
+<colUsage columnID="D3F16A08-B7D6-14CB-E131-EEDEE4EB8C05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA4C14FA-50F2-7092-B90A-2E825CA18130" name="RX-DRUG_2__IDX">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CE3046A5-EFE8-3B08-8540-3BC26D7A623C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8F7071D6-2EDA-C5D4-95A9-199F914357C9"/>
+<colUsage columnID="B6BF2F18-78C4-69EB-81FC-58495B4AFBBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4EAC5E5-DEEA-70B0-ED8D-9EC5EA44770E" name="RX-DRUG_2_RX-DRUG_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-08 01:28:16 UTC</createdTime>
+<generatorID>CE3046A5-EFE8-3B08-8540-3BC26D7A623C</generatorID>
+<ownerDesignName>SUPERMAN_normalized relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7071D6-2EDA-C5D4-95A9-199F914357C9"/>
+<colUsage columnID="B6BF2F18-78C4-69EB-81FC-58495B4AFBBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
