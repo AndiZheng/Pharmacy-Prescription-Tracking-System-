@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF7D12F1-EA4F-BE12-A3B4-271AC80FD704" name="DRUG">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Drug ID" id="7F3D05AE-CE1D-0363-601A-433ABE6E8152">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>C9198B3F-D9B1-551B-62EC-722947286A79</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Name" id="462E33B9-6405-2B92-2EAC-4A8861A723A3">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>8CB7BFCF-FFDA-0BF7-C536-C8629503862B</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Controlled Substance Notation" id="83E49F62-3481-5D71-9BFB-DA9EB29B5D40">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>D915723E-8503-8273-7283-F2ABEE384EA9</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Cost" id="1A44E1CA-0609-126B-F040-FCD3D03338FE">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>26E51D07-C103-993D-0E4C-68EED257C6FC</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F29023CE-C5C7-18CC-A80C-58606B3407EC" name="Drug PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F3D05AE-CE1D-0363-601A-433ABE6E8152</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

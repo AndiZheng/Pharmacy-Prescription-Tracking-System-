@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="6452188D-193D-EE08-4884-156219E3616D">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<sourcePk>6B3EA9CB-C864-4423-FE55-768CA955E307</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B35C36F6-5E0F-574A-1BD7-0B5D6C32290E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FAA3B48F-6833-9D05-50AF-C55D9D397EFA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D2D6730-78BC-E9F8-A582-F0BD8589234B" name="INSURANCE_CLAIM">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>3A6EB8CF-DE92-8E38-E8E2-7B2C09914B4C</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ins_Claim_ID" id="41012A47-04CC-9C92-5849-2AC290469B4B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>2025E012-011A-873C-2FD7-0C4B867E01CE</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ins_Claim_Date" id="0B7B6215-6355-71BF-7761-F22B5BF1CAB9">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>592AD5EB-D5B6-EFEA-5C7A-88004F5B85AF</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ins_Policy_#" id="A7A65CDA-BDAD-67B4-EAD3-77146D3FD042">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>F6306E26-F683-AB37-D0F3-423C17701D38</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ins_Company_Name" id="08D41A0C-0D4C-FBE9-FCB3-5B776B1C5D95">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>01A91DCA-C524-CE72-AE97-8A193B4B5172</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ins_Company_Address" id="4E88E37C-9E2C-07DF-F9D2-67EA9B88658B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>CF9087EB-3D49-5811-7BF5-C01D75864FCE</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount_Due" id="EBD91D3F-8B44-5E3B-6371-A173C36792D7">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>DF4B1B48-4FA5-814B-4A47-A80401BC5553</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D1BAC22-8C57-9C5E-7D2A-39A215A2C0D1" name="INSURANCE_CLAIM_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>ECE3C617-A214-C119-AC9E-5D05A454FAEA</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41012A47-04CC-9C92-5849-2AC290469B4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

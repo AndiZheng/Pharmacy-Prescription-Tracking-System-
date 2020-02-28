@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CC92817-57DF-E73E-EFA0-4BC858C8A136" name="RX">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rx #" id="EC1DFEDA-C4D6-A51D-49DC-76830E9C9217">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>5D5B7837-D028-388C-4F6C-1054E14A88FC</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Physician Name" id="E2E90C31-1AD2-7E41-423A-C19777B22860">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<generatorID>A263CFBA-4ED0-3F5F-85E9-A3F01C901380</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>B87FB40D-18E5-77E3-C106-ED89CE8DE987</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<referedAttribute>9E13843B-2666-B450-B3EB-3BC7F406547B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient ID" id="97F1EA66-5AA2-C4A9-D8AF-9519918C60F3">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<generatorID>92CCD79A-13F7-7A0F-9A7E-08A39AEE9E36</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>408400A6-CC94-722D-F9D0-53A41E000AA1</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<referedAttribute>A4612CAB-9CC2-04E7-DCEF-96A05E76C3CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment #" id="32B77574-A9B5-9A19-E97F-77C5942F0EF3">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<generatorID>38830CDC-7BF5-BE3C-9741-F2B7D1DAB651</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>9C8D2409-DC13-3086-3E94-9E422EA407AE</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<referedAttribute>C972CA0B-B606-3887-ED53-821DABFE44B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rx Original Date" id="29D02BC0-FC24-8190-964E-CBBD1352B049">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>1E7DA8C1-CEDE-A4E7-C091-E7DBFB33651E</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94C6D697-401D-17F6-0768-32B94D91190A" name="PRESCRIPTION PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC1DFEDA-C4D6-A51D-49DC-76830E9C9217</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

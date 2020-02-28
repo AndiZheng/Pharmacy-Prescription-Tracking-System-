@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FFAAE77-954B-0E82-F97C-EFF3EB2DA0C5" name="PHYSICIAN">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Physician Name" id="9E13843B-2666-B450-B3EB-3BC7F406547B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>E206F250-7D5C-249D-ED9B-0C44ECC48CF1</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Physician Address" id="5B021785-E067-E85A-A945-5F862806B05B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<importedID>1A99CB7D-D77F-A1F0-A156-DF16CDC79952</importedID>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6BEF6A8-5582-F183-A395-561F45D31C74" name="PHYSICIAN PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:27 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FE83D186-53F6-A8F8-BBF3-630581A41F5B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E13843B-2666-B450-B3EB-3BC7F406547B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

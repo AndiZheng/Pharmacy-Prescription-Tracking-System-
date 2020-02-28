@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="80D30874-764C-82C1-7595-0A828A21DB77" containerWithKeyObject="F98E1E84-F7FE-A26B-9CAD-523A4939C4AD" localFKIndex="3B09311E-99C8-90DB-A38E-BA26DDD6CD37" name="RX_PAYMENT_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>38830CDC-7BF5-BE3C-9741-F2B7D1DAB651</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<referredTableLongName>PAYMENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9DCF8A8-87EF-FE7A-C85E-788213EEEF1A</referredTableID>
+<keyObject>8DA7FD69-8993-724D-720D-D87CB25F5BFE</keyObject>
+<referredKeyID>8DA7FD69-8993-724D-720D-D87CB25F5BFE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Payment_#</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

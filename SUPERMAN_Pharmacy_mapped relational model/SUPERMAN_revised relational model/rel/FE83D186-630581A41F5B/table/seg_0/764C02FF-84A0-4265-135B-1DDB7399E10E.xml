@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="764C02FF-84A0-4265-135B-1DDB7399E10E" name="DRUG-SUPPLIER">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>FAA3B48F-6833-9D05-50AF-C55D9D397EFA</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<ordsAlias>drugsupplier</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Drug_Qty_on_Hand_D" id="16BBFDF5-5528-955F-8F30-CEC4312239C3">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>4E24856A-8273-C5FF-3666-EDCFC75A862D</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Qty_on_Order_D" id="F0FBD8F6-33B1-C7DB-BEF5-F8BF59105126">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>319672C1-266B-F3F6-2AEA-D89060578AC9</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Qty_on_Order_Date_D" id="A05C57D1-7AC6-7BE1-6F29-354DDCF7B426">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>C0F513D3-F363-3A0B-563C-6AAC9298EEC0</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_Drug_ID" id="95731078-EDC0-2BFA-CE07-260604A2D4E3">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>A71A9090-A437-AE02-F1DB-CEB44E567274</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE6A67D3-9C7C-E67F-9755-6F8B1DBF52F0" referredColumn="756D9EEB-DF5B-163F-4BD6-E69307722275"/>
+</associations>
+</Column>
+<Column name="SUPPLIER_Supplier_Name" id="B91F0C12-3FE4-B7A4-C601-853C8CA0AD94">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>E8291DE3-E3EA-CC04-BE40-12D7462DBE3B</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DADABB86-3DC6-261E-3A44-764221A493DC" referredColumn="52A9DD4D-2809-9C48-C036-3B8FE3073712"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B3B5B86-D533-FB64-4825-F5F5059CEF68" name="DRUG-SUPPLIER_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>0D517133-8761-C736-0036-3D48CC3B9BFD</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95731078-EDC0-2BFA-CE07-260604A2D4E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C885BA1E-02A7-E8E8-1971-E84C50888D29" name="DRUG-SUPPLIER__IDX">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>38A9A03B-221C-D73F-CEAF-690F279FD925</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="95731078-EDC0-2BFA-CE07-260604A2D4E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9B680E2-56A9-FC25-C4C8-67620ABDA7BC" name="DRUG-SUPPLIER_DRUG_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>38A9A03B-221C-D73F-CEAF-690F279FD925</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95731078-EDC0-2BFA-CE07-260604A2D4E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A66E0A5E-13FE-552B-28B6-D5292EEBC46F" name="DRUG-SUPPLIER_SUPPLIER_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-12-07 22:54:33 UTC</createdTime>
+<generatorID>6452188D-193D-EE08-4884-156219E3616D</generatorID>
+<ownerDesignName>SUPERMAN_revised relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B91F0C12-3FE4-B7A4-C601-853C8CA0AD94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
