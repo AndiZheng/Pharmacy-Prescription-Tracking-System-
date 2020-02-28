@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41FE8F0D-C975-8141-1403-E7CE476E669C" containerWithKeyObject="6CBCC832-2031-AA32-2362-0E3DBF77BA9F" localFKIndex="29BBB7AC-C3BC-9B36-70A3-AFCAD39C9809" name="RX_PATIENT_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>73854D09-A481-802E-7164-2CDAA49FCC1B</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<referredTableLongName>PATIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC9F550E-F903-87CC-495D-696D11B0A2B6</referredTableID>
+<keyObject>01DEF72B-29CA-62F1-FD1F-D13381CC1340</keyObject>
+<referredKeyID>01DEF72B-29CA-62F1-FD1F-D13381CC1340</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Patient_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

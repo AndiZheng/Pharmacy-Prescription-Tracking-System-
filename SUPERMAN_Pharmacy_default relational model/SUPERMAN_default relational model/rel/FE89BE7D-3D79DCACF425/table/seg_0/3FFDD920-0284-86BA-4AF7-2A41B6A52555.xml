@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FFDD920-0284-86BA-4AF7-2A41B6A52555" name="SUPPLIER">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>F0F8264B-EC63-C73E-BC6F-09717AC40B60</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Supplier_Name" id="95C69D6A-C173-681C-D4C7-D5B89C1F36DC">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>EAA8116A-5A1A-81A9-3A6D-0C09952C9047</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Supplier_Address" id="CD9B506B-7010-164B-ED21-586436638079">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>8A61FF5B-07D4-E85E-384E-196EE13AE882</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97E7A68B-FA95-AE97-B404-76B8E65855B5" name="SUPPLIER_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>4822455F-4A09-3B13-6B07-CD1C5DBAFD69</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C69D6A-C173-681C-D4C7-D5B89C1F36DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71A77769-F30B-6052-28AA-85417BE02EDA" containerWithKeyObject="20462263-EAFC-351D-3129-04420417E7A2" localFKIndex="136BF46E-34F5-F30D-213B-5A6592F859FF" name="Payment_INSURANCE_CLAIM_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>CBD32C0C-596D-98F9-3309-44C9F178F77C</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<referredTableLongName>INSURANCE_CLAIM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18359268-E03A-692C-139E-B5EB4A19539F</referredTableID>
+<keyObject>2BFE6FD7-5F70-6916-CBCB-2E8FEB343272</keyObject>
+<referredKeyID>2BFE6FD7-5F70-6916-CBCB-2E8FEB343272</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ins_Claim_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17379D0C-D17A-CB8C-C50A-1BABC66FC4FB" name="DRUG">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>DC90F18E-C8C7-88DA-11CA-FF6537E868B2</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Drug_ID" id="AC341631-3B36-99EC-BAFF-03CF6F9A80EB">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>8CB134CD-B732-A364-75C5-D343B1089514</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Name" id="05690FA9-CB83-5517-B40F-E7F90C4F37A1">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>4D837076-A2A9-A278-3D44-323C72D328B7</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Strength_D" id="5CACBF94-0B56-9EEF-D94B-BDEFF713CF32">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>8B248C05-9CD4-D931-1A5E-DFDFE36D54E5</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Controlled_Substance_Notation" id="D52E8C04-E002-7599-DF87-D4B4FFEE823B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>79C516F0-F4A4-ED7F-253B-75457D2DD111</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Cost" id="38A4E028-FBC0-7281-2676-1AD425670875">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>D63B2B7B-0936-94C3-5EE1-DA162B567226</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Form_D" id="5F680540-3B4F-3B84-8066-D01702CFA69A">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>8E77A287-F78F-A095-EA67-E3247B9AE0D1</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Qty_on_Hand_D" id="B73517D3-2E01-2E56-FA74-C3664A758DC5">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>BCB40553-026F-4986-77C4-BF62999EC1A6</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Qty_on_Order_D" id="0D925930-CA81-3D29-C95C-F45D82E5F489">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>1E3784FD-8B21-ED24-ECC3-7277950E4EF3</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Qty_on_Order_Date_D" id="BB9F566B-E6EB-A0E9-4E05-B30BEB6AEFE6">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>F3F49E51-AE02-6F63-8ADB-CA13276C83C7</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Directions_D" id="7C379D4C-8CC9-2F2B-AD76-27C8EDCF2B85">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>3D0C2851-68C8-0CC9-25F5-C523044D9FA7</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_Supplier_Name" id="4FB9EE87-792E-0F58-D5A7-AA2FD428B381">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>FE4B5D2C-C5AA-5109-54AF-5F46A348735F</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="223731EC-4DB0-0506-FE2D-BA715099A238" referredColumn="95C69D6A-C173-681C-D4C7-D5B89C1F36DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D9822BF-3B16-006B-02F4-491F51E8C10B" name="DRUG_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>B40B94D2-E021-1839-B7A7-174529D2E103</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC341631-3B36-99EC-BAFF-03CF6F9A80EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A843D14-87A3-2894-A626-A4E3EC1E960A" name="DRUG_SUPPLIER_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>3F43E31C-6BA3-E04C-BA17-9A4A90F5D811</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FB9EE87-792E-0F58-D5A7-AA2FD428B381"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D05423FE-D417-FB2A-10AB-E5C451CFE0CF" name="INSURANCE CLAIM">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ins Claim ID" id="E5F16ADF-D084-9A93-03C5-1600AAE77F36">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<importedID>5AE4FEAD-03E5-2878-D059-1BCE4A86EFF2</importedID>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Claim Date" id="5D1CA8A9-A9FB-8047-BFDB-9A6D486A525E">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<importedID>4BEB7C43-43BB-354D-0A73-A6178350E29A</importedID>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Policy #" id="73945A55-A984-C3F0-2C13-5E65E9C44A97">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<importedID>AD32EF37-6668-959A-8BB7-86F2CCA898EA</importedID>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Company Name" id="1E76F9EE-0AF2-F367-B784-CA4DEB12EB0A">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<importedID>C520BA2D-22F9-9606-2764-37B68BD6AFE0</importedID>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ins Company Address" id="099C460D-58F9-6BD5-D75C-3380556937D3">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<importedID>1580D466-0604-0A32-A2D3-5869677FC274</importedID>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount Due" id="FA211D7A-E013-3EED-E730-13C8D79AD3AF">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<importedID>F81749A3-1669-1F65-9E76-5C3569213397</importedID>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83BED9C0-4773-64DE-89E3-ED1D3B787043" name="CLAIM PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5F16ADF-D084-9A93-03C5-1600AAE77F36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDBEAB43-E7C1-76EC-8260-E08AE281C852" containerWithKeyObject="3B6506D8-269D-FA02-E3C9-0B149DD82607" localFKIndex="0F5C19D6-2C87-AE70-E766-500A241CBB4E" name="Relation_6_RX_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>549A8F63-DC23-3646-110B-C8AD8406839F</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<referredTableLongName>RX</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6CBCC832-2031-AA32-2362-0E3DBF77BA9F</referredTableID>
+<keyObject>16F55512-8827-DC54-6E21-87B36ECC88B6</keyObject>
+<referredKeyID>16F55512-8827-DC54-6E21-87B36ECC88B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rx_#</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

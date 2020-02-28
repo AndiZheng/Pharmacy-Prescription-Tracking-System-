@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="223731EC-4DB0-0506-FE2D-BA715099A238" containerWithKeyObject="17379D0C-D17A-CB8C-C50A-1BABC66FC4FB" localFKIndex="2A843D14-87A3-2894-A626-A4E3EC1E960A" name="DRUG_SUPPLIER_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>3F43E31C-6BA3-E04C-BA17-9A4A90F5D811</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<referredTableLongName>SUPPLIER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FFDD920-0284-86BA-4AF7-2A41B6A52555</referredTableID>
+<keyObject>97E7A68B-FA95-AE97-B404-76B8E65855B5</keyObject>
+<referredKeyID>97E7A68B-FA95-AE97-B404-76B8E65855B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Supplier_Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

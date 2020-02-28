@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CBCC832-2031-AA32-2362-0E3DBF77BA9F" name="RX">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>3500A9A8-167C-BD4F-47E9-B9ACF89A314B</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rx_#" id="B925FC0D-E6FD-AD0B-D190-2E328823E38F">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>06E1DD06-73BA-A224-D62A-DD7F5738FDCA</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Original_Date_D" id="F3E5F163-7960-466D-E366-4A44CFAA9AD0">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>8C18FE99-F4C2-B66E-7422-6E853EE72CC8</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Total_Price_D" id="DC7BDB12-A969-5248-5BB8-8EAA17EDFB96">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>8F23936C-2CEB-438D-B556-46B2B0FA6F1E</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Drug_Price_D" id="BDC82A91-20C1-4C27-7D4A-EFE4333590A6">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>F4658B86-3590-FC1B-4997-6AC3FBA5096B</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Drug_Qty_D" id="2F822F27-647D-0932-DAFD-6EB60DE17E59">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>78A4605D-CF92-E34E-D452-35165281E3CF</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pharmacist_Name_D" id="F4734939-D0AF-2DB1-CA28-024E0366D4D8">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>CE7CE477-A016-64B9-D0EC-CFE816982C5B</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rx_Date_Filled_D" id="B5650E84-07E6-3156-4658-F47BD02EE286">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>63C18E66-1499-39FB-8A22-DB27AD3344D8</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="#_of_Refills_D" id="91FC783A-4D0E-4F07-013F-975573D49660">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>F15721EF-2B64-1416-118E-58EF97D96B2D</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="#_of_Refills_Remaining_D" id="4A3CAAE9-156F-962F-5561-22A342FE7417">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>6200EDBB-B3CA-3C51-10A7-7915762EE061</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHYSICIAN_Physician_Name" id="2E7EE107-89B5-EEB0-F7DB-373FE18187DA">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>8FD592D8-295B-B6C5-56EB-20F047F19B94</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EA3B603-FE3B-2DBD-65DA-E346C5BF8F0E" referredColumn="CA196EA5-2B2C-7F35-6031-19093A11B800"/>
+</associations>
+</Column>
+<Column name="PATIENT_Patient_ID" id="6B777674-3A92-A30E-D96A-FC2DCCAEDDDB">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>632AC420-1EBA-6C46-F876-917906F9918D</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41FE8F0D-C975-8141-1403-E7CE476E669C" referredColumn="2B6DEB61-EA8C-967A-25AD-36754F952106"/>
+</associations>
+</Column>
+<Column name="Payment_Payment_#" id="F55E03A0-5D9D-09D2-1AB6-1B87419AF08B">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>6EFED589-DBA4-A3B9-BD1F-49E0DEB50E92</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F58B8DB-F15E-1D7C-A375-17C8E1CB6DBD" referredColumn="F78ED1FD-D838-2403-AA86-6F73FC462EB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16F55512-8827-DC54-6E21-87B36ECC88B6" name="RX_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>CA208E29-3E70-6586-5491-191F502A2359</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B925FC0D-E6FD-AD0B-D190-2E328823E38F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29BBB7AC-C3BC-9B36-70A3-AFCAD39C9809" name="RX_PATIENT_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>73854D09-A481-802E-7164-2CDAA49FCC1B</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B777674-3A92-A30E-D96A-FC2DCCAEDDDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA5A8686-2372-F3BF-0D55-2B77773B326C" name="RX_PHYSICIAN_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>4868CCFE-F364-6254-0C84-D55D73D9817D</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E7EE107-89B5-EEB0-F7DB-373FE18187DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="502D39AE-1894-8835-1B9F-D4B61FFFE5A5" name="RX_Payment_FK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>7F412BF3-1AD4-1F49-8859-C421E58C9E38</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F55E03A0-5D9D-09D2-1AB6-1B87419AF08B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

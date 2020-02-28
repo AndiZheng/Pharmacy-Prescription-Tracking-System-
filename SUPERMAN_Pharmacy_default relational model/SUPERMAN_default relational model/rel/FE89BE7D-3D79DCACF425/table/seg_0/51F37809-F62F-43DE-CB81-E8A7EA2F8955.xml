@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51F37809-F62F-43DE-CB81-E8A7EA2F8955" name="PHYSICIAN">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>6EE8B0B0-F4A7-B53C-093B-EE1BE09673FF</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Physician_Name" id="CA196EA5-2B2C-7F35-6031-19093A11B800">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>C3CAAB32-B32B-2C12-69F6-7093D76B0716</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Physician_Address" id="04C1FA42-F13E-386B-D0F4-059D50C12DFC">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>C0707E9A-946C-C344-6B27-4ACE9959FA73</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3632EA48-C48F-BCA0-7B20-5B104AABAA72" name="PHYSICIAN_PK">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:32 UTC</createdTime>
+<generatorID>0B1EC87C-6B12-09FF-7A6B-4B6D6BBC394F</generatorID>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA196EA5-2B2C-7F35-6031-19093A11B800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

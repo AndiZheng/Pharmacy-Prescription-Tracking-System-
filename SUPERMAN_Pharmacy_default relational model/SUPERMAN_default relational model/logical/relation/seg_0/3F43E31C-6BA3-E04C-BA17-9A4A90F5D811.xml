@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Supplier-Drug" directorySegmentName="seg_0" id="3F43E31C-6BA3-E04C-BA17-9A4A90F5D811">
+<createdBy>Teagan Li</createdBy>
+<createdTime>2018-11-10 06:05:12 UTC</createdTime>
+<ownerDesignName>SUPERMAN_default relational model</ownerDesignName>
+<engineerTo>
+<item key="FE89BE7D-C7B0-B9AD-0F18-3D79DCACF425" value="true"/>
+</engineerTo>
+<sourcePk>4822455F-4A09-3B13-6B07-CD1C5DBAFD69</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0F8264B-EC63-C73E-BC6F-09717AC40B60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DC90F18E-C8C7-88DA-11CA-FF6537E868B2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
